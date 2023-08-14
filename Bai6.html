@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+<script>
+	let a = +prompt("Enter num a");
+	let b = +prompt("Enter num b");
+	let tongchan = 0;
+	let tongle = 0;
+	for (let i = a; i <= b; i++) {
+		if (i % 2 === 0) {
+			tongchan += i;
+		} else {
+			tongle += i;
+		}
+	}
+	console.log("tong so chan la:" + tongchan);
+	console.log("tong so le la:" + tongle);
+</script>
+</body>
+</html>
